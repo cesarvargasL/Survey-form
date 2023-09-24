@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>survey-form.freecodecamp</title>
+</head>
+<body>
+    <div class="header">
+        <header class="heading">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+    </div>
+    <!-- This is a div of container for formulary -->
+    <div class="container">
+        <!-- Separing of the section header, this containe of title -->
+        <main>
+          <!-- FORM -->
+          <form id="survey-form">
+            <div class="formulary">
+              <!-- This container "first-formulary" "div" containe labels how name,email and age -->
+              <div class="first-formulary">
+                <label id="name-label" for="name">Name
+                  <input id="name" class="input-group" type="text" placeholder="Enter your name" name="name" required/>
+                </label>
+                <label id="email-label" for="email">Email
+                  <input id="email" class="input-group" type="email" placeholder="Enter your email" name="email" required />
+                </label>
+                <label id="number-label" for="number">Age (optional)
+                  <input id="number" class="input-group" type="number" min="13" max="120" placeholder="Age" name="number" />
+                </label>
+                  <label id="dropdown-label">Which option best describes your current role?
+                    <select id="dropdown" class="dropdown">
+                      <option id="select-options" class="dropdown-group" name="select-options" value=" ">Select current role</option>
+                      <option id="select-options" class="dropdown-group" name="select-options" value="1">Student</option>
+                      <option id="select-options" class="dropdown-group" name="select-options" value="2">Full Time job</option>
+                      <option id="select-options" class="dropdown-group" name="select-options" value="3">Full Time Learner</option>
+                      <option id="select-options" class="dropdown-group" name="select-options" value="4">Prefer not to say</option>
+                      <option id="select-options" class="dropdown-group" name="select-options" value="5">Other</option>
+                    </select>
+                  </label>
+              </div>
+              <!--his container "first-formulary" "div" containe labels how input of type radio, checkbox, submit and input of "textarea" -->
+              <div class="second-formulary">
+                <label id="radio-select" class="label-radio-options">Would you recommend freeCodeCamp to a friend?
+                  <label for="radio-select0" class="label-radio-options"><input id="radio-select0" type="radio" class="radio-options" name="radio-select" value="maybe">Definitely</input></label>
+                  <label for="radio-select1" class="label-radio-options"><input id="radio-select1" type="radio" class="radio-options" name="radio-select" value="not-sure">Maybe</input></label>
+                  <label for="radio-select2" class="label-radio-options"><input id="radio-select2" type="radio" class="radio-options" name="radio-select" value="not-sure">Not sure</input></label>
+                </label>
+                <div class="fieldset-checkbox">
+                  <label for="checkbox-select" class="label-checkbox-select">What would you like to see improved? <small>(Check all that apply)</small>
+                    <label for="checkbox-select0" class="label-checkbox-select"><input id="checkbox-select0" class="checkbox-options" type="checkbox" value="front-end" name="checkbox-select"></input>Front-end Projects</label>
+                    <label for="checkbox-select1" class="label-checkbox-select"><input id="checkbox-select1" class="checkbox-options" type="checkbox" value="back-end" name="checkbox-select"></input>Back-end Projects</label>
+                    <label for="checkbox-select2" class="label-checkbox-select"><input id="checkbox-select2" class="checkbox-options" type="checkbox" value="data-visualization" name="checkbox-select"></input>Data Visualization</label>
+                    <label for="checkbox-select3" class="label-checkbox-select"><input id="checkbox-select3" class="checkbox-options" type="checkbox" value="challenges" name="checkbox-select"></input>Challenges</label>
+                    <label for="checkbox-select4" class="label-checkbox-select"><input id="checkbox-select4" class="checkbox-options" type="checkbox" value="challenges" name="checkbox-select"></input>Open Source Community</label>
+                    <label for="checkbox-select5" class="label-checkbox-select"><input id="checkbox-select5" class="checkbox-options" type="checkbox" value="challenges" name="checkbox-select"></input>Gitter help rooms</label>
+                    <label for="checkbox-select6" class="label-checkbox-select"><input id="checkbox-select6" class="checkbox-options" type="checkbox" value="challenges" name="checkbox-select"></input>Videos</label>
+                    <label for="checkbox-select7" class="label-checkbox-select"><input id="checkbox-select7" class="checkbox-options" type="checkbox" value="challenges" name="checkbox-select"></input>City Meetups</label>
+                    <label for="checkbox-select8" class="label-checkbox-select"><input id="checkbox-select8" class="checkbox-options" type="checkbox" value="challenges" name="checkbox-select"></input>Wiki</label>
+                    <label for="checkbox-select9" class="label-checkbox-select"><input id="checkbox-select9" class="checkbox-options" type="checkbox" value="challenges" name="checkbox-select"></input>Forum</label>
+                    <label for="checkbox-select10" class="label-checkbox-select"><input id="checkbox-select10" class="checkbox-options" type="checkbox" value="challenges" name="checkbox-select"></input>Additional Courses</label>
+                  </label>
+                </div>
+                
+                <!-- div to give it better style-->
+                <div>Any comments or suggestions
+                  <div class="ap">
+                    <textarea type="textarea" placeholder="Enter your comment here..."></textarea>
+                  </div>
+                  <label class="label-submit">
+                    <input id="submit" class="submit-input" type="submit" value="Submit"/>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </main>
+      </div>
+</body>
+</html>

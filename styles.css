@@ -1,0 +1,120 @@
+/* All styles list in order */
+.header{
+    padding-top: 1rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1rem;
+}
+
+body {
+  background-image: linear-gradient(rgba(103, 92, 167, 0.831), rgba(103, 92, 167, 0.831)), url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  color: rgb(255,255,255);
+  font-family: "Verdana", sans-serif;
+  margin: auto;
+  background-repeat:no-repeat;
+  background-size:cover;
+  font-size: 1.1rem;
+}
+
+label {
+  display:block;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+/* Container of form */
+.container {
+  width: 80%;
+  background-color: rgba(40,40,80, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px 20px 30px ;
+  max-width: 500px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+/* styles of firs formulary */
+.first-formulary {
+  border: 0.5rem;
+  padding: 0;
+  border-bottom: 0.5px;
+  text-align: auto;
+}
+  
+.input-group {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  padding-left: 0.4rem;
+  padding-right: 0.75rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  margin: 10px 0 0 0;
+  min-height: 2em;
+  border-radius: 0.25rem;
+  border: 1px solid;
+}
+
+.dropdown {
+  display: block;
+  margin-top: 3px;
+  width: 103%;
+  height: 2.3rem;
+  padding: 0.1rem 0.75rem 0rem 0rem;
+  margin: 10px 0 0 0;
+  text-align: 1px;
+  border-radius: 0.25rem;
+  color: rgba(40,40,80, 0.7);
+  border: 1px solid;
+}
+
+/* styles of second formulary */
+.second-formulary {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px;
+}
+
+.radio-select {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid;
+}
+
+.fieldset-checkbox {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+textarea {
+  padding: 10px;
+  margin: 10px 0 0 0;
+  width: 97%;
+  height: 95px;
+  min-height: 2em;
+  border: 1px solid;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.label-submit {
+  padding-top: 1rem;
+}
+.submit-input {
+  padding: 12px;
+  border-radius: 0.25rem;
+  width: 101.5%;
+  background-color: rgba(10, 255, 145, 0.806);
+  color: rgb(255,255,255);
+  font-size: 1rem;
+}
+
